@@ -1,0 +1,58 @@
+/*FORM*/
+
+#formular {
+	width:280px;
+	float:left;
+	padding-right:20px;
+	padding-bottom:30px;
+	}
+
+form { 
+	float:left;
+	display:block;
+	position:relative;
+	}
+	
+fieldset { 
+	border: none; 
+	width:100%;
+	float:left;
+	}
+	
+legend { 
+	display:none; 
+	}
+label { 
+	display: block; 
+	}
+label span { 
+	display: block; 
+	}
+input, textarea { 
+	border: 1px solid #ccc; 
+	width: 268px;
+	margin-bottom:7px;
+	}
+label .wrong { 
+	display: none; 
+	}
+label.error .wrong { 
+	display: inline; 
+	}
+.error input, .error textarea{ 
+	border: 1px solid #f00; width: 266px; 
+	}
+	
+button {
+	display:block;
+	margin-top:10px;
+	}
+	
+#formular h4 {
+	width:266px;
+	}
+	
+#contact {
+	padding-top:12px;
+	}
+	

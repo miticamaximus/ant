@@ -1,0 +1,90 @@
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#3a3a3a;
+	line-height:1.38;
+	}
+	
+strong {
+	font-weight:bold;
+	}
+	
+em {
+	font-style:italic;
+	}
+	
+a {
+	color:#6148bc;
+	}
+
+a:hover {
+	text-decoration:none;
+	}	
+	
+#supra-header p {
+	color:#29166f;
+	font-weight:bold;
+	font-size:18px;
+	position:absolute;
+	left:290px;
+	top:35px;
+	}
+	
+#supra-header p span {
+	display:block;
+	font-style:italic;
+	font-weight:normal;
+	font-size:16px;
+	}
+	
+h1 {
+	font-size:26px;
+	color:#9f9f9f;
+	padding-bottom:7px;
+	}
+	
+h1 span {
+	font-size:30px;
+	font-weight:bold;
+	color:#29166f;
+	}
+	
+h2 {
+	font-size:26px;
+	color:#9f9f9f;
+	padding-bottom:13px;
+	}
+	
+#interior h2 {
+	font-size:16px;
+	padding-bottom:10px;
+	font-weight:bold;
+	}
+	
+#interior h3 {
+	font-size:12px;
+	font-style:italic;
+	padding-bottom:7px;
+	font-weight:bold;
+	}	
+	
+#main p {
+	padding-bottom:7px;
+	}
+	
+ul li {
+	background:url(../parts/arrow.jpg) left 5px no-repeat;
+	padding-left:17px;
+	padding-bottom:7px;
+	}
+
+#management a, #sudura a {
+	color:#fff;
+	text-decoration:none;
+	}
+
+#management a:hover, #sudura a:hover {
+	text-decoration:underline;
+	}

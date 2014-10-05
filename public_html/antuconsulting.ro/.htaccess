@@ -1,0 +1,11 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^cursuri-sudori.ro$ [OR]
+RewriteCond %{HTTP_HOST} ^www.cursuri-sudori.ro$
+RewriteRule ^/?$ "http\:\/\/antuconsulting\.ro" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^antu-consulting.ro$ [OR]
+RewriteCond %{HTTP_HOST} ^www.antu-consulting.ro$
+RewriteRule ^/?$ "http\:\/\/antuconsulting\.ro" [R=301,L]
+

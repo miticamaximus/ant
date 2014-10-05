@@ -1,0 +1,124 @@
+/*________________________________________________________________
+
+Lista de culori folosite
+
+#000000 -- Black
+_________________________________________________________________*/
+
+/*White Space Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+body {line-height: 1;color: black;background: white;}
+ol, ul {list-style: none;}
+table {border-collapse: separate;border-spacing: 0;}
+caption, th, td {text-align: left;font-weight: normal;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+
+/*Generic*/
+html {
+	width: 100%;
+	height: 100%;
+	}
+
+body {
+	background:url(../parts/bg.png) center top repeat-y;
+	background-color:#fff;
+	}
+
+.endsection {
+	display: block;
+	clear: both;
+	font-size: 0;
+	height: 0;
+	}
+	
+#content {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	}
+
+#supra-header {	
+	position:relative;
+	width:960px;
+	}	
+	
+#logo {
+	width:430px;
+	float:left;
+	}
+	
+#vizual {
+	width:960px;
+	position:relative;
+	}
+	
+#main {
+	width:920px;
+	padding:15px 20px 0 20px;
+	float:left;
+	}
+	
+#interior #main {
+	padding-bottom:15px;
+	}
+	
+#about {
+	width:560px;
+	padding-right:30px;
+	float:left;
+	}
+	
+#misiunea {
+	width:330px;
+	float:left;
+	}
+	
+#management {
+	background:url(../parts/bg-management.jpg) left top no-repeat;
+	width:410px;
+	float:left;
+	margin:15px 0 20px 0;
+	display:inline;
+	padding:45px 20px 8px 20px;
+	display:inline;
+	}
+	
+#sudura {
+	background:url(../parts/bg-sudura.jpg) left top no-repeat;
+	width:410px;
+	float:left;
+	padding:45px 20px 14px 20px;
+	margin:15px 20px 20px 0;
+	display:inline;
+	}	
+
+#container-footer {
+	background:url(../parts/bg-footer.png) center top no-repeat;
+	}
+	
+#container-footer ul {
+	width:910px;
+	margin:0 auto;
+	padding:20px 0 23px 50px;
+	overflow:hidden;
+	}
+
+#container-footer ul li {
+	background:none;
+	float:left;
+	padding:0 30px 0 0;
+	}
+
+#container-footer ul li a {
+	color:#9ea09f;
+	text-decoration:none;
+	}
+	
+#container-footer ul li a:hover {
+	text-decoration:underline;
+	}
